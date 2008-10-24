@@ -8,7 +8,7 @@ Keywords:		sociology, bibtex, bib, econsoc, culture, oss, blood, organs, commodi
 
 # Summary #
 
-The contents of my ../texmf/bibtex/bib directory. The initial bibtex files are as follows:
+The contents of my ../texmf/bibtex/bib directory. 'socbib.bib' is a consolidated bibtex file created by merging the following files (which the repo began with but which are no longer tracked):
 
 *	abbrevs.bib: 	Journal abbreviations.
 *	altruism.bib:	Some interdisciplinary stuff on altruism.
@@ -29,7 +29,7 @@ The contents of my ../texmf/bibtex/bib directory. The initial bibtex files are a
 *	oss.bib:	Social science on Open Source Software.
 *	theory.bib:	Social Theory.
 
-Some of these haven't been edited or updated in several years; some have annotations and other commentary; some are properly alphabetized. 
+So, the socbib.bib file is fairly heterogeneous. The content of the entries varies too, in that some are more complete than others. 
 
 The bibtool-rsc folder contains some elementary resource files for conversion and bibliography normalization with the bibtool utility.
 

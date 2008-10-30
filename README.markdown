@@ -1,9 +1,9 @@
-Title:			socbibs
-Subtitle:		BibTeX files of use to sociologists
-Author:			Kieran Healy
-Affiliation:	Sociology Department, Duke University
-Date:			2008-06-29
-Keywords:		sociology, bibtex, bib, econsoc, culture, oss, blood, organs, commodification, altruism
+# BibTeX files of use to sociologists
+
+*	Author:			Kieran Healy
+*	Affiliation:	Sociology Department, Duke University
+*	Date:			2008-06-29
+*	Keywords:		sociology, bibtex, bib, econsoc, culture, oss, blood, organs, commodification, altruism
 
 
 # Summary #

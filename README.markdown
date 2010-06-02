@@ -12,9 +12,9 @@ The contents of my ../texmf/bibtex/bib directory. 'socbib.bib' is a consolidated
 
 The bibtool-rsc folder contains some elementary resource files I use while converting, sorting, and normalizing the bib file using the bibtool utility. To properly sort the bib file after adding and entry, do 
 
-bibtool -s -i socbib.bib -o socbib.bib
-bibtool -r bibtool-rsc/crossref.rsc -i socbib.bib -o socbib.bib
+    bibtool -s -i socbib.bib -o socbib.bib
+    bibtool -r bibtool-rsc/crossref.rsc -i socbib.bib -o socbib.bib
 
-The first command sorts the entries alphabetically. The second puts crossref'd items (e.g. book chapters) at the beginning, so that bibtex can find their parent entries (e.g. edited volumes) properly
+The first command sorts the entries alphabetically. The second puts crossref'd items (e.g. book chapters) at the beginning, so that bibtex can find their parent entries (e.g. edited volumes) properly.
 
 

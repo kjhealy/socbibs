@@ -10,7 +10,7 @@
 
 The contents of my ../texmf/bibtex/bib directory. 'socbib.bib' is a consolidated bibtex file created by merging a number of bibtex files I've compiled over the years. The content reflects citations in my own work.
 
-The bibtool-rsc folder contains some elementary resource files I use while converting, sorting, and normalizing the bib file using the bibtool utility. To properly sort the bib file after adding and entry, do 
+The bibtool-rsc folder contains some elementary resource files I use while converting, sorting, and normalizing the bib file using the bibtool utility. Bibtool is available via [Homebrew](http://brew.sh)---use `brew install bib-tool` to get it. To properly sort the bib file after adding and entry, do 
 
     bibtool -s -i socbib.bib -o socbib.bib
     bibtool -r bibtool-rsc/crossref.rsc -i socbib.bib -o socbib.bib

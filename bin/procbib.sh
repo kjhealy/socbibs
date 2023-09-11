@@ -2,8 +2,8 @@
 
 ## Sort the file
 cp socbib.bib socbib.bak
-bibtool -s -i socbib.bib -o socbib.bib
-bibtool -r bibtool-rsc/crossref.rsc -i socbib.bib -o socbib.bib
+bibtool -r biblatex.rsc -s -i socbib.bib -o socbib.bib
+bibtool -r biblatex.rsc bibtool-rsc/crossref.rsc -i socbib.bib -o socbib.bib
 
 ## Make a pandoc-ready copy
 cp socbib-pandoc.bib socbib-pandoc.bak
